@@ -44,7 +44,15 @@ function App() {
   function nameH(event) {
     setName(event.target.value);
   }
+  const [message, setMessage] = useState("");
 
+  const handleClick = (cardName) => {
+    setMessage(`${cardName} ka Button click hua abb!`);
+  };
+
+  const handleClick2 = () => {
+    setMessage("Button 2 was clicked from card!");
+  };
   /* ===============================
      JSX UI
      =============================== */
@@ -162,52 +170,67 @@ function App() {
         </div>
       </div>
 
+      {/* Cards Component */}
+      <p className="mt-4 px-4 py-2 bg-pink-600 text-white rounded-lg hover:bg-indigo-700">
+        {message}
+      </p>
+
       <div className="flex gap-6">
-        {/* Cards Component */}
         {/* Card 1 */}
+
         <Card
           title="iPhone 15"
           description="Latest Apple phone"
           price="₹79,999"
+          onButtonClick={() => handleClick("iPhone 15")}
           bgColor="bg-blue-500"
         />
+
         {/* Card 2 */}
         <Card
-          title="iPhone 16"
+          title="iPhone 15 Pro"
           description="Latest Apple phone"
           price="₹99,999"
+          onButtonClick={() => handleClick("iPhone 15 Pro")}
+          // onButtonClick={handleClick2}
           bgColor="bg-pink-500"
         />
 
-         {/* Card 3 */}
+        {/* <p>{message}</p> */}
+
+        {/* Card 3 */}
         <Card
-          title="iPhone 17"
+          title="iPhone 15 Max"
           description="Latest Apple phone"
           price="₹1,22,999"
           bgColor="bg-yellow-500"
+          onButtonClick={() => handleClick("iPhone 15 Max")}
         />
 
-         {/* Card 4 */}
+        {/* Card 4 */}
         <Card
           title="Samsung 24 Ultra"
           description="Latest Samsung phone"
           price="₹1,24,999"
           bgColor="bg-gray-500"
+          onButtonClick={() => handleClick("Samsung 24 Ultra")}
         />
 
-          {/* Card 5 */}
+        {/* Card 5 */}
         <Card
           title="Samsung s22 Ultra"
           description="Latest Samsung phone"
           price="₹78,999"
           bgColor="bg-green-500"
+          onButtonClick={() => handleClick("Samsung s22 Ultra")}
         />
-          {/* Card 6 */}
+        {/* Card 6 */}
         <Card
           title="Samsung A34"
           description="Latest Samsung phone"
           price="₹24,999"
           bgColor="bg-pink-500"
+          onButtonClick={() => handleClick(" Samsung A34")}
         />
       </div>
     </>
