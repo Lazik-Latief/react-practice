@@ -27,6 +27,7 @@ Example of using React.createElement without JSX
 Styled with simple Tailwind CSS classes
 Hands-on practice for handling state, events, and dynamic UI
 ---
-screenshot: <img width="905" height="324" alt="image" src="https://github.com/user-attachments/assets/b079d76b-4c1a-4360-afc8-f40bc48e3a81" />
+screenshot:<img width="894" height="382" alt="image" src="https://github.com/user-attachments/assets/36bad92a-864b-4d13-a4d7-5561275576a0" />
+
 
 
