@@ -20,7 +20,6 @@ Tailwind CSS for button styling and hover effects
 This helped me understand how React components communicate, how to reuse the same component with different data, and how real-world React applications manage logic and UI separately.
 ---
 ## Features
-
 Counter with Add, Delete, and Reset functionality (limits applied)
 Input to submit and display a name
 Live greeting input display
@@ -28,4 +27,6 @@ Example of using React.createElement without JSX
 Styled with simple Tailwind CSS classes
 Hands-on practice for handling state, events, and dynamic UI
 ---
+screenshot: <img width="905" height="324" alt="image" src="https://github.com/user-attachments/assets/b079d76b-4c1a-4360-afc8-f40bc48e3a81" />
+
 
