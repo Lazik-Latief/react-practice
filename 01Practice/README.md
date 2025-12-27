@@ -1,16 +1,23 @@
-# React + Vite
+## React Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small React practice project to experiment with state, events, inputs, and JSX/React.createElement.
 
-Currently, two official plugins are available:
+## Now practiced PROPS 
+How data is transfered from parent to child ..
+Made a components/Cards.jsx (structure of card) and gave values through App.jsx file
+----
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Counter with Add, Delete, and Reset functionality (limits applied)
 
-## React Compiler
+Input to submit and display a name
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Live greeting input display
 
-## Expanding the ESLint configuration
+Example of using React.createElement without JSX
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styled with simple Tailwind CSS classes
+
+Hands-on practice for handling state, events, and dynamic UI
+---
+
