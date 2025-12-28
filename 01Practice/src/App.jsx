@@ -3,6 +3,38 @@ import "./App.css";
 import Card from "./components/Cards";
 
 function App() {
+  // updation code here(PRACTICE CODE)
+  /*import { useEffect, useState } from "react";
+
+function App() {
+  
+   const [count, setCount] = useState(0);
+  const [name, setName] = useState("");
+  useEffect(() => {
+    //  console.log(count," pageLoaded");
+    document.title = `Count is ${count}`;
+    console.log("User tyoing:", name);
+  }, [name]);
+
+  useEffect(() => {
+    console.log("count changed: ", count);
+  }, [count]);
+
+   return (
+    <div className="">
+      <h1>Quote Generator</h1>
+      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <h2> {count}," pageLoaded"</h2>
+      <h3>count changed : {count}</h3>
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+    </div>
+  );
+}
+*/
   /* ===============================
      STATE VARIABLES
      =============================== */
