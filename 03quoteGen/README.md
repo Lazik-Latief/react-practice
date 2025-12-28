@@ -30,6 +30,9 @@ State updates → QuoteCard re-renders
        ↓
 Quote displayed on screen
 ---
+Screenshot:
+<img width="661" height="337" alt="image" src="https://github.com/user-attachments/assets/e961bc40-d07c-46a7-8cfb-1580abc0010d" />
+
 ## How It Was Created
 Initialize project with Vite + React + Tailwind
 Create quotes.js for storing quotes
